@@ -1,0 +1,105 @@
+
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Web Survey</title>
+		<link href="style.css" rel="styleSheet" >
+	</head>
+
+	<body>
+	<h3>My Website Survey</h3>
+
+
+
+<a href="https://www.arctic.de/en/"><img src="WebsitePic.png"  width="640" height="320"  ></a><br>
+<a href="https://www.arctic.de/en/">or click here to go to the site</a>
+		<div>
+		<form method = "post">
+			<p><label>Favourite aspect of website:
+			<input name = "name" type = "text" size = "25" maxlength = "40"></label>
+			</p>
+			
+			<p>
+			Check if the following apply to you<br>
+			
+			<label>
+				<input name = "thingsliked" type = "checkbox"
+					value = "Campus">
+					The site's  logical originztion is confusion 
+			</label>
+			<br>
+			<label>
+				<input name = "thingsliked" type = "checkbox"
+					value = "Students">
+					The visuals are distracting
+			</label>
+			<br>
+			<label>
+				<input name = "thingsliked" type = "checkbox"
+					value = "Location">
+					It is difficult for me to find product information on the website
+			</label>
+						
+			</p>
+			
+
+
+
+			<p>
+			How clearly is product information presented(1-Not clear, 4-Very clear)<br>
+			
+			<label>
+				<input name = "Clearity" type = "radio"
+					value = "1"> 
+					1  
+			</label>
+			
+			<label>
+				<input name = "Clearity" type = "radio"
+					value = "2"> 
+					2  
+			</label>
+			
+			<label>
+				<input name = "Clearity" type = "radio"
+					value = "3"> 
+					3  
+			</label>
+			
+			<label>
+				<input name = "Clearity" type = "radio"
+					value = "4"> 
+					4  
+			</label>
+			
+			
+			</p>
+			
+			<p><label for = "weekList">What Product did our website help you learn about
+				<input type = "text" id = "weekList"
+				placeholder = "select a product or type one in" list = "WeekDays"/>
+				<datalist id = "WeekDays">
+					<option Value = "MX-4 Thermal Paste">
+					<option Value = "Freezer 34 eSports DUO">
+					<option Value = "Liquid Freezer II - 240">
+				</datalist>
+			</label></p>
+
+			<p><label>Aditional Comments:<br>
+				<textarea name ="comments"
+					rows = "4" cols = "36">Enter Comments Here.</textarea></label>			
+			</p>
+			
+			<p>
+				<input type = "submit" value = "Submit">
+				<input type = "reset" value = "Clear">
+			</p>
+		</form>
+		</div>
+
+
+		<h5>Website Designed by Patrik Kelemen</h5>
+	</body>
+
+</html>

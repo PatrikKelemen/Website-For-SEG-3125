@@ -1,0 +1,16 @@
+h3{font-weight: bold;
+color: DarkBlue;}
+
+h5{
+color:DarkGreen;
+font-style : italic;
+}
+
+body{
+background-color: #9fc2ba;
+background-image: linear-gradient(#bee9e4,#9fc2ba);
+}
+
+div{
+background-color: #ffffff;
+}
